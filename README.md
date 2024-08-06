@@ -45,3 +45,28 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ## 🤔 Dúvidas?
 
 Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+ Olá, como vai? Essa será minha documentação para o projeto modelo do bootcamp Nexa AWS -  Machine learning para iniciantes, na qual eu trarei insights e tomadas de decição sobre o projeto, mas nesse primeiro momento, a introdução contará com o ralato  de alguns empecilhos (infelizmente) que postergaram a entrega dos resultados.
+ O dataset ecolhido para o primeiro teste foi:  dataset-1000-com-preco-variavel-e-renovacao-estoque.csv que se trata de um dataset simplificado, com informações de id produto, preço, quantidade de estoque e data de evento. 
+ Algumas tentativas criação do modelo foram realizadas mas, ao passar para a fase de análise e previsão, não era possível enviar o modelo por um motivo que ainda vou descobrir.
+ Cojitei trabalhar mais a fundo em outliers e valores que  poderiam estar dificultando a leitura do dataset já que as métricas de assertividade (Avg. wQL, MAPE, WAPE, RMSE) indicavem valores muito altos (1.0 nas 3 primeiras e 0.180 na última) entçao pensei que poderia corrigi-los. Mesmo analisando como mais calma, as mét5ricas permaneciam e o dataset não era enviado.
+ Agora, analiso duas possibilidades:
+ 1) Remover a coluna Data_de_evento, uma vez que ela pode  indicar datas que não sejam referentes a entrada ou saída dos produtos (necessita ser analisado com mais cautela)
+ 2) Mudar o dataset
+Mas devido ao curto tempo que possuo para o prazo limite, entregarei o link deste repositório mas garanto que, trabalharei neste projeto para encontrar soluções para o meu problema.
+Peço desculpas por entrega-lo dessa maneira nesse momento mas agradeço a equipe DIO pela compreensão e podem ter certeza de que irei colocar em prática tudo o que foi passado no Bootcamp e mais!
+  Até breve! Espero que possam ver quando o projeto estiver concluído, inclusive, marcarei vocês para que a publicação fiqeu visivel.
+
+
+ 
